@@ -1,0 +1,5 @@
+@import url("./_tailwind.css");
+@import url("./_fonts.css");
+* {
+  @apply box-border p-0 m-0 transition-all ease-in-out duration-300;
+}
