@@ -100,14 +100,26 @@ function page() {
             </div>
             <div className="flex flex-col md:flex-row gap-6">
               <img
-                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px]"
+                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px] flex md:hidden justify-center items-center"
                 width={100}
                 src={"./AppsStore.png"}
                 alt="App"
               />
               <img
-                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px]"
+                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px]  flex md:hidden justify-center items-center"
                 width={100}
+                src={"./PlayStore.png"}
+                alt="App"
+              />
+              <img
+                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px] md:flex hidden md:justify-center md:items-center"
+                width={200}
+                src={"./AppsStore.png"}
+                alt="App"
+              />
+              <img
+                className="max-sm:w-full rounded-[20px] max-sm:rounded-[5.4px]  md:flex hidden md:justify-center md:items-center"
+                width={200}
                 src={"./PlayStore.png"}
                 alt="App"
               />
