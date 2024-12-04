@@ -2,9 +2,9 @@ import Header from "@/components/shared/Header";
 import { ReactNode } from "react";
 const HeaderLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className=" w-screen h-fit">
+    <div className=" w-screen h-fit ">
       <Header />
-      <main className="">{children}</main>
+      <main className="w-screen h-fit overflow-x-hidden">{children}</main>
     </div>
   );
 };

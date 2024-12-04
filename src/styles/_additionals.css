@@ -1,0 +1,3 @@
+body {
+  @apply w-screen h-fit overflow-x-hidden overflow-y-auto scrollbar-thin scrollbar-thumb-orange scrollbar-track-gray-200;
+}
