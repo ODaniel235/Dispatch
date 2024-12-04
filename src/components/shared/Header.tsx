@@ -111,7 +111,7 @@ const Header = () => {
     return value;
   };
   return (
-    <header className=" w-screen h-fit flex flex-row gap-4 fixed  px-2 lg:px-8 py-4 justify-between md:items-center bg-white ">
+    <header className=" w-screen h-fit flex flex-row gap-4 fixed  px-2 lg:px-8 py-4 justify-between md:items-center bg-white opacity-100 bg-opacity-100 z-10 shadow-xl">
       {/* Desktop screen */}
       <Logo />
       <nav className=" hidden md:flex">
@@ -137,7 +137,7 @@ const Header = () => {
       </button>
       {/* For Mobile screen */}
 
-      <div className="flex flex-col relative w-fit sm:hidden justify-center">
+      <div className="flex flex-col relative w-fit sm:hidden justify-center   ">
         <svg
           onClick={() => setHamburgerOpen(!hamburgerOpen)}
           xmlns="http://www.w3.org/2000/svg"
