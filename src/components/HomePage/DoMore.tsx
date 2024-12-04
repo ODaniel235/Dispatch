@@ -14,7 +14,7 @@ const DoMore = () => {
           title="Delivery Your Logistics Safely and "
           titleC="Quickly"
           text="We blend fast, bike-based delivery with the convenience of our mobile app. Our team of cyclists ensures quick, reliable service while you track and manage your orders effortlessly through our app. Committed to speed and sustainability, we’re here to transform your local delivery experience."
-          imgSrc={appProfile}
+          imgSrc={appProfile} 
           imgAlt="App Profile"
           secondStarPosLeft="32"
         />

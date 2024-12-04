@@ -59,8 +59,8 @@ const Header = () => {
         <div
           className={
             !hamburgerOpen
-              ? "flex flex-col absolute top-20 right-0 z-20 bg-white text-right w-40 opacity-0 pointer-events-none transition-all"
-              : "flex flex-col absolute top-20 right-0 z-20 bg-white text-right w-44 opacity-100 transition-all"
+              ? "flex flex-col absolute top-20 right-0 z-20 bg-white text-right w-40 opacity-0 pointer-events-none transition-all right-6"
+              : "flex flex-col absolute top-20 right-0 z-20 bg-white text-right w-44 opacity-100 transition-all right-6"
           }
         >
           <ul className="flex flex-col p-5 gap-10 bg-white w-fit">
