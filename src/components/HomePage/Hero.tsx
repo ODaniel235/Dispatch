@@ -4,7 +4,7 @@ import HeroImage from "../../../public/bikeman.png";
 
 const Hero = () => {
   return (
-    <section className="w-screen min-h-0 md:h-[93vh] bg-[#001132] flex flex-col md:flex-row items-center justify-between px-5 md:px-10 lg:px-28  ">
+    <section className="w-full min-h-0 md:h-[93vh] bg-[#001132] flex flex-col md:flex-row items-center justify-center px-5 md:px-10 lg:px-28  ">
       <div className="text-white capitalize md:max-w-[50%] flex flex-col items-start  p-5">
         <h1 className="text-[35px] md:text-[64px] font-semibold leading-tight">
           {heroContent.text}

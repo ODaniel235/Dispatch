@@ -2,9 +2,9 @@ import { services } from "@/constants/Herocontants";
 
 const OurServices = () => {
   return (
-    <section className="py-10 bg-[#fff6f3] mt-28 px-10 mx-auto">
+    <section className="w-full py-10 bg-[#fff6f3] mt-28 px-10 mx-auto max-w-[1240px flex flex-col justify-center">
       {/* Section Header */}
-      <div className="flex flex-col justify-center items-center text-center gap-6 mb-10 ">
+      <div className="flex flex-col justify-center items-center text-center gap-6 mb-10 ] ">
         <h1 className="text-[#1E1E1E] font-semibold text[24px] md:text-5xl max-sm:text-[32px] font-custom">
           Our Services
         </h1>
