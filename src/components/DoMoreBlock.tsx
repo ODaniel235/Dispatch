@@ -1,6 +1,4 @@
-import React from "react";
-import OrangeStar from "../OrangeStar";
-import Image from "next/image";
+import OrangeStar from "./OrangeStar";
 
 export default function DoMoreBlock({
   title,
@@ -48,7 +46,7 @@ export default function DoMoreBlock({
           <div className="hidden max-sm:flex">
             <OrangeStar size={33} bottom={20} left={20} color="#021336" />
           </div>
-          <Image
+          <img
             className="max-md:w-full rounded-[20px] max-sm:rounded-[5.4px] max-sm:w-[160.8px]"
             width={272}
             src={imgSrc}

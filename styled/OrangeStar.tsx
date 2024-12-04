@@ -6,16 +6,15 @@ function OrangeStar({
   bottom,
   left,
   right,
-  color
+  color,
 }: {
-  size: number,
-  top?: number |string,
-  bottom?: number| string,
-  left?: number | string,
-  right?:number | string,
-  color?: string,
+  size: number;
+  top?: number | string;
+  bottom?: number | string;
+  left?: number | string;
+  right?: number | string;
+  color?: string;
 }) {
-
   let starColor = false;
 
   if (color) {
@@ -27,10 +26,10 @@ function OrangeStar({
       width={size}
       style={{
         position: "absolute",
-        top : top,
-        right : right,
-        left : left,
-        bottom : bottom,
+        top: top,
+        right: right,
+        left: left,
+        bottom: bottom,
       }}
       className="z-[19] md:block"
       height="56"
@@ -40,7 +39,7 @@ function OrangeStar({
     >
       <path
         d="M28 0C28.9506 15.0527 40.9472 27.0495 56 28C40.9472 28.9506 28.9506 40.9472 28 56C27.0495 40.9472 15.0527 28.9506 0 28C15.0527 27.0495 27.0495 15.0527 28 0Z"
-        fill={starColor? color : "#FE581C"}
+        fill={starColor ? color : "#FE581C"}
       />
     </svg>
   );
