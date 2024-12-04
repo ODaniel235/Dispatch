@@ -1,6 +1,15 @@
 import React from "react";
 import OrangeStar from "../OrangeStar";
-import Image from "next/image";
+
+interface DoMoreBlockProps {
+  title: string;
+  titleC: string;
+  text: string;
+  imgSrc: string;
+  imgAlt: string;
+  reversed?: boolean;
+  secondStarPosLeft?: string;
+}
 
 export default function DoMoreBlock({
   title,
@@ -8,17 +17,9 @@ export default function DoMoreBlock({
   text,
   imgSrc,
   imgAlt,
-  reversed,
-  secondStarPosLeft,
-}: {
-  title: string;
-  titleC: string;
-  text: string;
-  imgSrc: any;
-  imgAlt: string;
-  reversed?: boolean;
-  secondStarPosLeft?: string;
-}) {
+  reversed = false,
+  secondStarPosLeft = "32",
+}: DoMoreBlockProps) {
   return (
     <div className="flex max-w-[1240px] px-5 relative w-full">
       <div className="max-sm:hidden">
@@ -48,9 +49,10 @@ export default function DoMoreBlock({
           <div className="hidden max-sm:flex">
             <OrangeStar size={33} bottom={20} left={20} color="#021336" />
           </div>
-          <Image
+          <img
             className="max-md:w-full rounded-[20px] max-sm:rounded-[5.4px] max-sm:w-[160.8px]"
             width={272}
+            height={272} // Add height for better optimization
             src={imgSrc}
             alt={imgAlt}
           />
